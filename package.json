@@ -9,7 +9,7 @@
   "scripts": {
     "start": "yarn storybook",
     "build": "yarn babel",
-    "babel": "babel src -d lib --ignore '**/__tests__/*'",
+    "babel": "babel src -d lib --extensions '.ts,.tsx' --ignore '**/__tests__/*'",
     "test": "jest --passWithNoTests",
     "types": "tsc",
     "lint": "eslint './**/*.{js,ts,tsx,js.flow}'",
