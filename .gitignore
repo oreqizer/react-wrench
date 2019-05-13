@@ -3,5 +3,6 @@
 .vscode
 coverage
 dist
+lib
 node_modules
 yarn-error.log
