@@ -1,0 +1,12 @@
+{
+  "presets": [
+    "@babel/react",
+    "@babel/typescript",
+    ["@babel/env", { "targets": { "browsers": "last 2 versions" } }]
+  ],
+  "plugins": [
+    "@babel/transform-runtime",
+    "@babel/transform-react-constant-elements",
+    "@babel/proposal-class-properties"
+  ]
+}
