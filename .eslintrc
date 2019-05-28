@@ -18,6 +18,7 @@
     "jest": true
   },
   "globals": {
+    "window": true,
     "__": true
   },
   "rules": {
@@ -27,19 +28,17 @@
       "newlines-between": "always"
     }],
     "import/no-extraneous-dependencies": ["error", {
-      "devDependencies": ["etc/**", "stories/**", "**/__tests__/*"]
+      "devDependencies": [".storybook/*", "etc/**", "stories/**", "**/__tests__/*"]
     }],
     "react/display-name": "error",
     "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     // OFF
-    "camelcase": "off", // GraphQL
     "fp/no-nil": "off", // Side effects
     "fp/no-this": "off", // React
     "fp/no-mutation": "off", // React
     "fp/no-unused-expression": "off", // 'fs' calls, for example
-    "react/default-props-match-prop-types": "off", // Flow/ESlint conflict
     "react/require-default-props": "off", // Somehow semantically wrong
     "jsx-a11y/anchor-is-valid": "off", // Relative paths bullshit
     "@typescript-eslint/explicit-function-return-type": "off", // Inference, duh
