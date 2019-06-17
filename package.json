@@ -1,6 +1,6 @@
 {
   "name": "react-wrench",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Utilities for React web applications. :wrench:",
   "repository": "git@github.com:oreqizer/react-wrench.git",
   "author": "oreqizer <oreqizer@gmail.com>",
@@ -62,6 +62,7 @@
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.8.0",
     "babel-loader": "^8.0.6",
+    "conventional-changelog-cli": "^2.0.21",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.7.0",
     "enzyme-to-json": "^3.3.4",
