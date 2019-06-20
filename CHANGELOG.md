@@ -1,3 +1,12 @@
+## [0.3.2](https://github.com/oreqizer/react-wrench/compare/v0.3.1...v0.3.2) (2019-06-20)
+
+
+### Bug Fixes
+
+* Types ([20e2a19](https://github.com/oreqizer/react-wrench/commit/20e2a19))
+
+
+
 ## [0.3.1](https://github.com/oreqizer/react-wrench/compare/v0.1.0...v0.3.1) (2019-06-20)
 
 
