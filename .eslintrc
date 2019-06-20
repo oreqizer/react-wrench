@@ -28,7 +28,7 @@
       "newlines-between": "always"
     }],
     "import/no-extraneous-dependencies": ["error", {
-      "devDependencies": [".storybook/*", "etc/**", "stories/**", "**/__tests__/*"]
+      "devDependencies": [".storybook/**", "etc/**", "stories/**", "**/__tests__/*"]
     }],
     "react/display-name": "error",
     "react/jsx-filename-extension": ["error", { "extensions": [".tsx"] }],

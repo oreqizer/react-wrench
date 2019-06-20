@@ -5,7 +5,8 @@ type Props = {
   loader?: React.ReactNode;
 };
 
-const ClientOnly = ({ children, loader = null }: Props): React.ReactNode => {
+// @ts-ignore: Really no idea what's his problem
+const ClientOnly: React.FunctionComponent<Props> = ({ children, loader = null }: Props) => {
   const [mounted, setMounted] = React.useState(false);
 
   React.useEffect(() => {
