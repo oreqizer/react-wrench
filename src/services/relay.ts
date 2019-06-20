@@ -11,7 +11,7 @@ export const commitMutation = <R extends OperationType>(
   new Promise<R["response"]>((resolve, reject) => {
     relayCommitMutation(environment, {
       ...config,
-      onCompleted: (response: R, errors?: PayloadError[] | null) => {
+      onCompleted: (response: R["response"], errors?: readonly PayloadError[] | null) => {
         if (errors) {
           reject(new Error(errors.map(e => e.message).join(", ")));
           return;

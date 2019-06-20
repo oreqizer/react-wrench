@@ -15,6 +15,7 @@ const Toggle = ({ children, initial }: Props) => {
 
   return children({
     open,
+    // @ts-ignore: this is just BS
     onToggle: React.useCallback(() => setOpen(o => !o), []),
   });
 };
