@@ -1,14 +1,14 @@
 /* eslint-disable import/prefer-default-export */
 import { commitMutation as relayCommitMutation } from "react-relay";
-import { Environment, PayloadError, MutationConfig, OperationBase } from "relay-runtime";
+import { Environment, PayloadError, MutationConfig, OperationType } from "relay-runtime";
 
 type Excluded = "onCompleted" | "onError";
 
-export const commitMutation = <R extends OperationBase>(
+export const commitMutation = <R extends OperationType>(
   environment: Environment,
   config: Omit<MutationConfig<R>, Excluded>,
 ) =>
-  new Promise<R>((resolve, reject) => {
+  new Promise<R["response"]>((resolve, reject) => {
     relayCommitMutation(environment, {
       ...config,
       onCompleted: (response: R, errors?: PayloadError[] | null) => {
