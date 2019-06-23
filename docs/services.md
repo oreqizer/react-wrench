@@ -5,6 +5,7 @@ Located in `react-wrench/lib/services/<service>`.
 **List:**
 
 * [Fetch](#fetch)
+* [Geo](#geo)
 * [Relay](#relay)
 * [Session](#session)
 
@@ -46,6 +47,24 @@ export declare const JSON_BOTH: {
     "Content-Type": string;
     Accept: string;
 };
+```
+
+
+
+## Geo
+
+**Import:**
+```ts
+import * as geo from "react-wrench/lib/services/geo";
+```
+
+**Types:**
+```ts
+declare type Geo = {
+    lon: number;
+    lat: number;
+};
+declare const getCurrent: () => Promise<Geo | null>;
 ```
 
 
