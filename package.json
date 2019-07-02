@@ -1,6 +1,6 @@
 {
   "name": "react-wrench",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Utilities for React web applications. :wrench:",
   "repository": "git@github.com:oreqizer/react-wrench.git",
   "author": "oreqizer <oreqizer@gmail.com>",
