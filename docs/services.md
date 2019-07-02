@@ -65,6 +65,7 @@ declare type Geo = {
     lat: number;
 };
 export declare const getCurrent: () => Promise<Geo | null>;
+export declare const useGeo: () => Geo | null;
 export {};
 ```
 
