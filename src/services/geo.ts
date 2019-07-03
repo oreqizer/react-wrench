@@ -33,7 +33,7 @@ export const useGeo = (): Geo | null => {
         setGeo(res);
       })
       .catch(() => {});
-  });
+  }, []);
 
   return geo;
 };
