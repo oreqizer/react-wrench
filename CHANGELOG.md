@@ -1,3 +1,12 @@
+## [0.5.1](https://github.com/oreqizer/react-wrench/compare/v0.5.0...v0.5.1) (2019-07-03)
+
+
+### Bug Fixes
+
+* Geo hook ([834c285](https://github.com/oreqizer/react-wrench/commit/834c285))
+
+
+
 # [0.5.0](https://github.com/oreqizer/react-wrench/compare/v0.1.0...v0.5.0) (2019-07-02)
 
 
