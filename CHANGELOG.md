@@ -1,3 +1,12 @@
+# [1.0.0](https://github.com/oreqizer/react-wrench/compare/v0.5.1...v1.0.0) (2019-10-22)
+
+
+### Features
+
+* Update deps ([78f473d](https://github.com/oreqizer/react-wrench/commit/78f473da8133c2887835975980d6a656e53a1569))
+
+
+
 ## [0.5.1](https://github.com/oreqizer/react-wrench/compare/v0.5.0...v0.5.1) (2019-07-03)
 
 
