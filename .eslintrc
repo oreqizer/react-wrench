@@ -44,7 +44,8 @@
     "@typescript-eslint/explicit-function-return-type": "off", // Inference, duh
     "@typescript-eslint/no-var-requires": "off", // Configs
     "@typescript-eslint/prefer-interface": "off", // Why the fuck would I?
-    "@typescript-eslint/array-type": "off" // Codegen uses that
+    "@typescript-eslint/array-type": "off", // Codegen uses that
+    "@typescript-eslint/ban-ts-ignore": "off" // Has its uses
   },
   "settings": {
     "import/resolver": {

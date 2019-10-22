@@ -80,7 +80,7 @@ import * as relay from "react-wrench/lib/services/relay";
 
 **Types:**
 ```ts
-export declare const commitMutation: <R extends OperationType>(environment: Environment, config: Pick<MutationConfig<R>, "variables" | "optimisticResponse" | "optimisticUpdater" | "updater" | "uploadables" | "configs" | "mutation">) => Promise<R["response"]>;
+export declare const commitMutation: <R extends MutationParameters>(environment: Environment, config: Pick<MutationConfig<R>, "optimisticUpdater" | "optimisticResponse" | "updater" | "uploadables" | "variables" | "configs" | "mutation">) => Promise<R["response"]>;
 ```
 
 Utilities for working with **Relay**.

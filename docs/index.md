@@ -5,15 +5,15 @@
 Then install peer dependencies for features you want to use, no need to install them all!
 
 **Peer dependencies:**
-* `@types/react: ^16.8.22`
-* `@types/react-dom: ^16.8.4`
-* `@types/react-relay: ^5.0.0`
-* `@types/relay-runtime: ^5.0.0`
-* `js-cookie: ^2.2.0`
-* `react: ^16.8.6`
-* `react-dom: ^16.8.6`
-* `react-relay: ^5.0.0`
-* `relay-runtime: ^5.0.0`;
+* `@types/react: ^16.9.9`
+* `@types/react-dom: ^16.9.2`
+* `@types/react-relay: ^6.0.1`
+* `@types/relay-runtime: ^6.0.7`
+* `js-cookie: ^2.2.1`
+* `react: ^16.10.2`
+* `react-dom: ^16.10.2`
+* `react-relay: ^6.0.0`
+* `relay-runtime: ^6.0.0`;
 
 ## Documentation
 
